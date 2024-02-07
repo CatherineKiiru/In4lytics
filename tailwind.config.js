@@ -12,8 +12,9 @@ export default {
         'lightGreen': "#D1E2C0"
       },
       fontFamily: {
-        
-      }
+        'inter': ['Inter', 'sans-serif'],
+        'montserrat': ['Montserrat Alternates', 'sans-serif'],
+      },
     },
   },
   plugins: [],
