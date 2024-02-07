@@ -5,7 +5,7 @@ import NavBar from "../common/NavBar";
 export default function Home() {
   return (
     <>
-      <div>
+      <div className="bg-oliveGreen">
         <NavBar />
         <Hero />
       </div>
