@@ -12,13 +12,9 @@ import About from "./routes/About.jsx"
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <Home />,
     errorElement: <Error />,
-  },
-  {
-    path:"/home",
-    element: <Home />
-  },      
+  },     
   {
     path: "contact",
     element: <ContactUs />
