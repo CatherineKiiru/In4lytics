@@ -1,5 +1,10 @@
 import React from "react";
 import phoneIcon from "/src/assets/call-icon.svg";
+import tuple from "/src/assets/tuple.png";
+import transistor from "/src/assets/transistor.png";
+import mirage from "/src/assets/mirage.png";
+import statickit from "/src/assets/statickit.png";
+import workcation from "/src/assets/workcation.png";
 
 const Hero = () => {
   return (
@@ -14,14 +19,25 @@ const Hero = () => {
           development agency.
         </p>
         <div className="m-4 md:m-6">
-        <button className="mx-auto items-center px-6 py-2 md:px-5 md:py-3 flex bg-lightYellow rounded-full gap-2">
-          <img className="bg-oliveGreen rounded-full p-2" src={phoneIcon} alt="" />
-          Book a Call
-        </button>
+          <button className="mx-auto items-center px-6 py-2 md:px-5 md:py-3 flex bg-lightYellow rounded-full gap-2">
+            <img
+              className="bg-oliveGreen rounded-full p-2"
+              src={phoneIcon}
+              alt=""
+            />
+            Book a Call
+          </button>
         </div>
         <h2 className="text-lightYellow mt-28 md:mt-32 max-w-xs mx-auto font-bold text-lg md:text-2xl">
-        Woven with trust, stitched with success
+          Woven with trust, stitched with success
         </h2>
+        <div className="flex mx-auto items-center justify-center w-32 h-8 gap-8 md:gap-44 md:w-30 md:h-auto mt-3 md:mt-8 ">
+          <img src={mirage} alt="mirage-logo" />
+          <img src={tuple} alt="tuple-logo" />
+          <img src={transistor} alt="transistor-logo" />
+          <img src={statickit} alt="statickit-logo" />
+          <img src={workcation} alt="workcation logo" />
+        </div>
       </section>
     </>
   );
