@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Hero from "../components/home/Hero";
 import NavBar from "../common/NavBar";
 import HistorySection from "../components/home/HistorySection";
+import HowWeWork from "../components/home/HowWeWork";
 
 export default function Home() {
   return (
@@ -10,9 +11,8 @@ export default function Home() {
         <NavBar />
         <Hero />
       </div>
-      <div className="">
-        <HistorySection />
-      </div>
+      <HistorySection />
+      <HowWeWork />
     </>
   );
 }
