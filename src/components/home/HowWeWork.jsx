@@ -3,11 +3,13 @@ import bulbIcon from "/src/assets/bulb-icon.svg";
 import figmaIcon from "/src/assets/figma-icon.svg";
 import beakerIcon from "/src/assets/beaker-icon.svg";
 import htmlIcon from "/src/assets/htmltag-icon.svg";
+import group from "/src/assets/Group-48.svg"
 
 const HowWeWork = () => {
     const heading = ""
     const Paragraph = ""
     const Card = ""
+    const Image = ""
   return (
     <section className="bg-oliveGreen z-10 absolute">
       <div className="w-full text-center mx-auto justify-center">
@@ -20,34 +22,34 @@ const HowWeWork = () => {
         </p>
       </div>
       {/* cards section */}
-      <div className="flex w-full items-center mx-auto justify-center">
-        <div className="bg-lightYellow">
-          <img src={bulbIcon} alt="bulb icon" />
-          <h1>Requirement Gathering</h1>
-          <p>
+      <div className="md:flex w-full text-center mx-auto justify-center">
+        <div className="bg-lightYellow m-6 p-6 h-96 w-80 rounded-lg mx-auto">
+          <img src={bulbIcon} className="mx-auto ml-4" alt="bulb icon" />
+          <h1 className="mt-[-20px] md:mt-0 text-oliveGreen text-lg font-bold">Requirement Gathering</h1>
+          <p className="text-xs mt-4 text-[#3D4631] font-normal font-onest">
             Book a call with us so that we can have the preliminary discussions
             on your ideas.
           </p>
         </div>
-        <div>
-          <img src={figmaIcon} alt="figma icon" />
-          <h1>We design your idea</h1>
-          <p>
+        <div className="bg-lightGreen m-6 p-6 h-96 w-80 rounded-lg mx-auto">
+          <img src={figmaIcon} className="mx-auto mt-4" alt="figma icon" />
+          <h1 className=" md:mt-0 text-oliveGreen text-lg font-bold">We design your idea</h1>
+          <p className="text-xs mt-4 text-[#3D4631] font-normal font-onest">
             UI ideation and design from initial concept to iterative designs.
           </p>
         </div>
-        <div>
-          <img src={beakerIcon} alt="beaker icon" />
-          <h1>You give the go ahead</h1>
-          <p>
+        <div className="bg-[#49543A] m-6 p-6 h-96 w-80 rounded-lg mx-auto">
+          <img src={beakerIcon} className="mx-auto " alt="beaker icon" />
+          <h1 className=" md:mt-0 text-lightYellow text-lg font-bold">You give the go ahead</h1>
+          <p className="text-xs mt-4 text-lightGreen font-normal font-onest">
             We take you through the design and make changes based on your
             feedback.
           </p>
         </div>
-        <div>
-          <img src={htmlIcon} alt="html icon" />
-          <h1>Development</h1>
-          <p>
+        <div className="bg-lightYellow m-6 p-6 h-96 w-80 rounded-lg mx-auto">
+          <img src={htmlIcon} className="mx-auto mt-10" alt="html icon" />
+          <h1 className="md:mt-0 text-oliveGreen text-lg font-bold">Development</h1>
+          <p className="text-xs mt-4 text-[#3D4631] font-normal font-onest">
             If you are satisfied with the design, we build the final solution
             and test.
           </p>

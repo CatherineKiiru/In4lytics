@@ -20,11 +20,11 @@ const HistorySection = () => {
             />
             <img
               src={handModels}
-              className="hidden w-5/6 md:block pl-12"
+              className="hidden lg:w-5/6 md:block lg:pl-12"
               alt="hand models on desktop"
             />
           </div>
-          <div className="bg-oliveGreen p-6 space-y-4 md:relative md:float-right md:rounded-xl md:z-10 md:top-[-14rem] md:max-w-md md:mr-24">
+          <div className="bg-oliveGreen p-6 space-y-4 lg:relative lg:float-right lg:rounded-xl lg:z-10 lg:top-[-14rem] lg:max-w-md lg:mr-24">
             <article className="text-white justify-end">
               We're not just a design studio. We're a tapestry of talent, a
               vibrant spool of creators, knit together by a shared passion for
