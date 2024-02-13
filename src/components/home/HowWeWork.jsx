@@ -22,10 +22,10 @@ const HowWeWork = () => {
         </p>
       </div>
       {/* cards section */}
-      <div className="md:flex mt-16 md:mt-12 w-full text-center mx-auto justify-center gap-6 p-4">
+      <div className="md:flex mt-16 md:mt-12 w-full text-center mx-auto justify-center gap-6 md:px-8 lg:px-14">
         <div className="bg-lightYellow m-6 p-6 h-96 w-80 rounded-lg mx-auto">
           <img src={bulbIcon} className="mx-auto ml-4" alt="bulb icon" />
-          <h1 className="mt-[-20px] text-oliveGreen text-lg font-bold">Requirement Gathering</h1>
+          <h1 className="mt-[-20px] md:mt-6 text-oliveGreen text-lg font-bold">Requirement Gathering</h1>
           <p className="text-xs mt-4 text-[#3D4631] font-normal font-onest">
             Book a call with us so that we can have the preliminary discussions
             on your ideas.
