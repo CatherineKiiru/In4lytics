@@ -11,8 +11,8 @@ const HowWeWork = () => {
     const Card = ""
     const Image = ""
   return (
-    <section className="bg-oliveGreen z-10 absolute w-full pt-24">
-      <div className="mx-auto text-center justify-center md:max-w-lg px-4 md:px-0 space-y-2">
+    <section className="bg-oliveGreen z-10 relative w-full pt-24">
+      <div className="mx-auto px-4 md:px-0 space-y-2">
         <h1 className="text-[#60A308] font-bold text-sm md:text-xl font-montserrat">Our Loom</h1>
         <h2 className="text-lightYellow text-4xl font-extrabold md:mt-2 font-montserrat">How we Work</h2>
         <p className="text-white text-base font-normal md:mt-6 font-onest">

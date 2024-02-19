@@ -3,6 +3,7 @@ import Hero from "../components/home/Hero";
 import NavBar from "../common/NavBar";
 import HistorySection from "../components/home/HistorySection";
 import HowWeWork from "../components/home/HowWeWork";
+import WhatWeProvide from "../components/home/WhatWeProvide";
 
 export default function Home() {
   return (
@@ -12,7 +13,10 @@ export default function Home() {
         <Hero />
       </div>
       <HistorySection />
-      <HowWeWork />
+      <div className="bg-oliveGreen"> 
+        <HowWeWork />
+        <WhatWeProvide />
+      </div>
     </>
   );
 }

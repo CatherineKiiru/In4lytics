@@ -5,7 +5,6 @@ import './index.css'
 import Home from './routes/Home.jsx'
 import Error from './components/Error.jsx'
 import ContactUs from './routes/ContactUs.jsx'
-import Root from './routes/Root.jsx'
 import About from "./routes/About.jsx"
 
 
