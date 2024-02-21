@@ -29,7 +29,7 @@ const WhatWeProvide = () => {
                 creative design to cutting-edge web and mobile development
               </p>
             </div>
-            <div className="relative bg-lightGreen h-[307px] md:h-[404px] mt-12 md:mt-8 px-7 lg:px-12 lg:rounded-2xl">
+            <article className="relative bg-lightGreen h-[307px] md:h-[404px] mt-12 md:mt-8 px-7 lg:px-12 lg:rounded-2xl">
               <h1 className="text-oliveGreen text-2xl md:text-5xl font-black font-montserrat pt-11 lg:pt-16 ">
                 SOFTWARE DEV
               </h1>
@@ -50,11 +50,11 @@ const WhatWeProvide = () => {
               <div className="absolute bottom-0 right-0 w-44 md:max-w-md">
                 <img src={vector} className="" alt="image vector" />
               </div>
-            </div>
+            </article>
           </div>
           {/* Second Grid */}
           <div className="lg:w-1/2 lg:space-y-8">
-            <div className="relative bg-lightYellow h-[307px] md:h-[404px] lg:mt-8 px-12 lg:rounded-2xl">
+            <article className="relative bg-lightYellow h-[307px] md:h-[404px] lg:mt-8 px-12 lg:rounded-2xl">
               <h1 className="text-oliveGreen text-2xl md:text-5xl font-black font-montserrat pt-11 lg:pt-16">
                 UI/UX DESIGN
               </h1>
@@ -75,8 +75,8 @@ const WhatWeProvide = () => {
               <div className="absolute bottom-0 right-0 w-56 md:max-w-md">
                 <img src={figma} className="" alt="half-figma-logo" />
               </div>
-            </div>
-            <div className="relative bg-oliveGreen h-[307px] md:h-[404px] lg:mt-8 px-12 lg:rounded-2xl">
+            </article>
+            <article className="relative bg-oliveGreen h-[307px] md:h-[404px] lg:mt-8 px-12 lg:rounded-2xl">
               <h1 className="text-lightYellow text-2xl md:text-5xl font-black font-montserrat pt-11 lg:pt-16">
                 MOBILE DEV
               </h1>
@@ -97,7 +97,7 @@ const WhatWeProvide = () => {
               <div className="absolute bottom-0 w-32  bg-no-repeat right-0 md:max-w-md">
                 <img src={phone} className="" alt="half-phone-image" />
               </div>
-            </div>
+            </article>
           </div>
         </div>
       </section>

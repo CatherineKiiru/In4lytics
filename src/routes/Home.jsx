@@ -4,6 +4,7 @@ import NavBar from "../common/NavBar";
 import HistorySection from "../components/home/HistorySection";
 import HowWeWork from "../components/home/HowWeWork";
 import WhatWeProvide from "../components/home/WhatWeProvide";
+import OurWork from "../components/home/OurWork";
 
 export default function Home() {
   return (
@@ -16,7 +17,9 @@ export default function Home() {
       <div className="bg-[#49543A]"> 
         <HowWeWork />
         <WhatWeProvide />
+        <OurWork />
       </div>
+      
     </>
   );
 }

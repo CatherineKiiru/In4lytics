@@ -6,8 +6,8 @@ import rightArrow from "/src/assets/arrow-right.png";
 const HistorySection = () => {
   return (
     <>
-      <div className="bg-lightGreen">
-        <section className=" container mx-auto lg:relative">
+      <section className="bg-lightGreen">
+        <div className="container mx-auto lg:relative">
           <div className="">
             <div className="text-center py-8">
               <h2 className="text-[#60A308] text-sm font-montserrat font-bold">
@@ -51,8 +51,8 @@ const HistorySection = () => {
               </button>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </>
   );
 };
