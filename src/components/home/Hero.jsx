@@ -9,7 +9,7 @@ import workcation from "/src/assets/workcation.png";
 const Hero = () => {
   return (
     <>
-      <section className="mt-24 text-center mx-auto flow-root max-w-5xl">
+      <section className="container md:max-w-7xl mt-24 text-center mx-auto flow-root max-w-5xl">
         <h1 className="font-montserrat text-2xl md:text-7xl font-bold m-4 md:m-6 text-white">
           Elevating digital ideas from meh to magnificent
         </h1>

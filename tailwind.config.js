@@ -16,6 +16,11 @@ export default {
         'montserrat': ['Montserrat Alternates', 'sans-serif'],
         'onest': ['Onest', 'sans-serif'],
       },
+      backgroundImage: {
+        'softwareCard': "url('/src/assets/Frame61.png')",
+        'designCard': "url('/src/assets/ux-card.svg')",
+        'mobileCard': "url('/src/assets/mobile-card.png')",
+      }
     },
   },
   plugins: [],

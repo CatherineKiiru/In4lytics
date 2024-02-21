@@ -8,12 +8,12 @@ import WhatWeProvide from "../components/home/WhatWeProvide";
 export default function Home() {
   return (
     <>
-      <div className="bg-oliveGreen">
+      <div className="bg-[#49543A]">
         <NavBar />
         <Hero />
       </div>
       <HistorySection />
-      <div className="bg-oliveGreen"> 
+      <div className="bg-[#49543A]"> 
         <HowWeWork />
         <WhatWeProvide />
       </div>

@@ -2,107 +2,106 @@ import React from "react";
 import softwareCard from "/src/assets/software-card.svg";
 import mobileCard from "/src/assets/mobile-card.png";
 import designCard from "/src/assets/ux-card.svg";
-import arrow from "/src/assets/arrow-right.png";
+import greenArrow from "/src/assets/arrow-right.png";
 import yellowArrow from "/src/assets/arrow-right-yellow.png";
+import vector from "/src/assets/Vector.png";
+import figma from "/src/assets//figma-half.png";
+import phone from "/src/assets/phone-half.png"
 
 const WhatWeProvide = () => {
   return (
-    <section className="mx-auto md:flex text-center pt-12 md:pt-56 lg:px-40 bg-oliveGreen lg:gap-8">
-      {/* grid 1 */}
-      <div className="">
-        <article className="md:w-[500px] md:text-start text-wrap">
-          <h1 className="font-montserrat font-bold text-sm text-[#60A308]">
-            The Tapestry
-          </h1>
-          <h2 className="font-montserrat font-bold text-lg md:text-3xl text-lightYellow">
-            What we Provide
-          </h2>
-          <p className="font-onest font-medium text-xs md:text-base text-white ">
-            As a design and development agency we offer a variety of services to
-            help you reach your vision. Each service is tailored to produce the
-            best results efficiently from intuitive and creative design to
-            cutting-edge web and mobile development
-          </p>
-          <div className="relative">
-            <div className="absolute px-6 text-start ">
-              <h1 className="text-2xl md:text-5xl font-montserrat font-bold mt-16">
+    <>
+      <section className="bg-[#49543A]">
+        <div className="lg:px-20 lg:container mx-auto lg:flex lg:grid-col-2 lg:max-w-7xl lg:pt-32 md:gap-8">
+          {/* First Grid */}
+          <div className="lg:w-1/2">
+            <div>
+              <h1 className="text-[#60A308] font-montserrat md:text-xl font-bold">
+                The Tapestry
+              </h1>
+              <h2 className="text-lightYellow font-montserrat font-bold md:text-3xl md:mt-1">
+                What we Provide
+              </h2>
+              <p className="text-white font-onest text-xs lg:text-base md:mt-6 ">
+                As a design and development agency we offer a variety of
+                services to help you reach your vision. Each service is tailored
+                to produce the best results efficiently from intuitive and
+                creative design to cutting-edge web and mobile development
+              </p>
+            </div>
+            <div className="relative bg-lightGreen h-[307px] md:h-[404px] md:mt-8 px-7 lg:px-12 lg:rounded-2xl">
+              <h1 className="text-oliveGreen text-2xl md:text-5xl font-black font-montserrat pt-11 lg:pt-16 ">
                 SOFTWARE DEV
               </h1>
-              <p className="text-xs md:text-lg mt-2">
+              <p className="text-oliveGreen text-xs md:text-lg lg:leading-5 font-inter font-medium mt-4">
                 Our team transforms concepts into robust applications, Embracing
                 the latest technologies. From scalable backend systems to
                 intuitive user interfaces, We craft software tailored to your
                 unique needs
               </p>
-
-              <button className="flex text-xs md:text-base text-oliveGreen border border-oliveGreen rounded-full p-4 gap-2 items-center mt-3">
-                View Projects
+              <button className="flex rounded-full border border-oliveGreen py-4 px-4 items-center gap-2 mt-5">
+                View Project
                 <img
                   src={yellowArrow}
                   className="bg-oliveGreen rounded-full"
-                  alt="right arrow"
+                  alt="yellow arrow"
                 />
               </button>
-            </div>
-            <div className="bg-lightGreen">
-            <img src={softwareCard} className="h-80 lg:h-auto md:mt-8 md:rounded-lg" alt="ui-ux design card" />
+              <div className="absolute bottom-0 right-0 w-44 md:max-w-md">
+                <img src={vector} className="" alt="image vector" />
+              </div>
             </div>
           </div>
-        </article>
-      </div>
-      {/* grid 2 */}
-      <div className="">
-        <div className="relative">
-          <div className="absolute px-6 text-start">
-            <h1 className="text-2xl md:text-5xl font-montserrat font-bold mt-12">
-              UI/UX DESIGN
-            </h1>
-            <p className="text-xs md:text-lg mt-2">
-              Where aesthetics meets functionality, our team is responsible for
-              crafting designs where every pixel is purposeful. Elevate User
-              Experiences with visually stunning interfaces, intuitive
-              navigation, and thoughtful design elements
-            </p>
-
-            <button className="flex text-xs border border-oliveGreen rounded-full p-4 gap-2 items-center mt-3">
-              View Projects
-              <img
-                src={yellowArrow}
-                className="bg-oliveGreen rounded-full text-lightYellow"
-                alt="right arrow"
-              />
-            </button>
-          </div>
-          <img src={designCard} className="" alt="ui-ux design card" />
-        </div>
-
-        <div>
-          <div className="relative ">
-            <div className="absolute px-6 text-start">
-              <h1 className="text-2xl md:text-5xl font-montserrat font-bold mt-16 text-lightYellow">
+          {/* Second Grid */}
+          <div className="lg:w-1/2 lg:space-y-8">
+            <div className="relative bg-lightYellow h-[307px] md:h-[404px] md:mt-8 px-12 lg:rounded-2xl">
+              <h1 className="text-oliveGreen text-2xl md:text-5xl font-black font-montserrat pt-11 lg:pt-16">
+                UI/UX DESIGN
+              </h1>
+              <p className="text-oliveGreen text-xs md:text-lg lg:leading-5 font-inter font-medium mt-4">
+                Where aesthetics meets functionality, our team is responsible
+                for crafting designs where every pixel is purposeful. Elevate
+                User Experiences with visually stunning interfaces, intuitive
+                navigation, and thoughtful design elements
+              </p>
+              <button className="flex rounded-full border border-oliveGreen py-4 px-4 items-center gap-2 mt-5">
+                View Project
+                <img
+                  src={yellowArrow}
+                  className="bg-oliveGreen rounded-full"
+                  alt="yellow arrow"
+                />
+              </button>
+              <div className="absolute bottom-0 right-0 w-56 md:max-w-md">
+                <img src={figma} className="" alt="half-figma-logo" />
+              </div>
+            </div>
+            <div className="relative bg-oliveGreen h-[307px] md:h-[404px] md:mt-8 px-12 lg:rounded-2xl">
+              <h1 className="text-lightYellow text-2xl md:text-5xl font-black font-montserrat pt-11 lg:pt-16">
                 MOBILE DEV
               </h1>
-              <p className="text-xs md:text-lg mt-2 text-white">
-                Lorem ipsum dolor sit amet consectetur. Varius ut purus blandit
-                netus lectus nunc a. Lacus aliquam enim sit ultrices quis ut.
-                Justo quis metus sit justo morbi. In id nibh neque proin
-                curabitur condimentum quisque facilis.
+              <p className="text-white text-xs md:text-lg lg:leading-5 font-inter font-medium mt-4">
+                Our team transforms concepts into robust applications, Embracing
+                the latest technologies. From scalable backend systems to
+                intuitive user interfaces, We craft software tailored to your
+                unique needs
               </p>
-
-              <button className="flex text-xs text-lightYellow border border-lightYellow rounded-full p-4 gap-2 items-center mt-3">
-                View Projects
+              <button className="flex rounded-full border text-lightYellow border-lightYellow py-4 px-4 items-center gap-2 mt-5">
+                View Project
                 <img
-                  src={arrow}
+                  src={greenArrow}
                   className="bg-lightYellow rounded-full"
-                  alt="right arrow"
+                  alt="yellow arrow"
                 />
               </button>
+              <div className="absolute bottom-0 w-32  bg-no-repeat right-0 md:max-w-md">
+                <img src={phone} className="" alt="half-phone-image" />
+              </div>
             </div>
-            <img src={mobileCard} className="h-80" alt="ui-ux design card" />
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

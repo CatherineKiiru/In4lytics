@@ -4,7 +4,7 @@ import Logo from "./inf4lytics-logo.png";
 const NavBar = () => {
   const Classes="text-white hover:text-lightYellow md:pt-1 pt-0"
   return (
-    <nav className="pt-8 px-4 md:px-12 max-w-md md:max-w-full md:pt-12 flex justify-between items-center">
+    <nav className="container mx-auto md:max-w-7xl pt-8 px-4 md:px-12 md:pt-12 flex justify-between items-center">
       <div className="flex items-center gap-2">
         <img src={Logo} alt="inf4lytics logo" />
         <h1 className="text-lightYellow font-semibold text-lg font-montserrat ">inf4lytics</h1>
