@@ -15,7 +15,7 @@ const WhatWeProvide = () => {
         <div className="lg:px-20 lg:container mx-auto lg:flex lg:grid-col-2 lg:max-w-7xl lg:pt-32 md:gap-8">
           {/* First Grid */}
           <div className="lg:w-1/2">
-            <div>
+            <div className="text-center md:text-end space-y-2 md:space-y-0 px-5">
               <h1 className="text-[#60A308] font-montserrat md:text-xl font-bold">
                 The Tapestry
               </h1>
@@ -29,7 +29,7 @@ const WhatWeProvide = () => {
                 creative design to cutting-edge web and mobile development
               </p>
             </div>
-            <div className="relative bg-lightGreen h-[307px] md:h-[404px] md:mt-8 px-7 lg:px-12 lg:rounded-2xl">
+            <div className="relative bg-lightGreen h-[307px] md:h-[404px] mt-8 md:mt-8 px-7 lg:px-12 lg:rounded-2xl">
               <h1 className="text-oliveGreen text-2xl md:text-5xl font-black font-montserrat pt-11 lg:pt-16 ">
                 SOFTWARE DEV
               </h1>
