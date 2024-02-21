@@ -7,18 +7,18 @@ import group from "/src/assets/Group-48.svg"
 
 const HowWeWork = () => {
   return (
-    <section className="container mx-auto max-w-[520px] md:max-w-full pt-24">
-      <div className="px-4 text-center">
+    <section className="mx-auto max-w-[520px] md:max-w-[1920px] pt-24">
+      <div className="px-4 text-center max-w-md md:max-w-xl mx-auto">
         <h1 className=" text-[#60A308] font-bold text-sm md:text-xl font-montserrat">Our Loom</h1>
-        <h2 className=" text-lightYellow text-4xl font-extrabold md:mt-2 font-montserrat">How we Work</h2>
-        <p className=" text-white text-base font-normal md:mt-6 font-onest">
+        <h2 className=" text-lightYellow text-lg md:text-4xl font-extrabold md:mt-2 font-montserrat">How we Work</h2>
+        <p className=" text-white text-xs md:text-base font-normal mt-6 font-onest">
           As a design and development agency, we are dedicated to our craft,
           always working to improve one output from the last. We structure our
           approach to achieve the best work within the least amount of time.
         </p>
       </div>
       {/* cards section */}
-      <div className="md:flex mt-16 md:mt-12 text-center  gap-6 md:px-8 lg:px-14">
+      <div className="md:flex mt-12 text-center gap-6 md:px-8 lg:px-14">
         {/* card 1 */}
         <div className="bg-lightYellow m-6 p-6 h-96 w-80 rounded-lg mx-auto">
           <img src={bulbIcon} className="mx-auto ml-4" alt="bulb icon" />

@@ -15,21 +15,21 @@ const WhatWeProvide = () => {
         <div className="lg:px-20 lg:container mx-auto lg:flex lg:grid-col-2 lg:max-w-7xl lg:pt-32 md:gap-8">
           {/* First Grid */}
           <div className="lg:w-1/2">
-            <div className="text-center md:text-end space-y-2 md:space-y-0 px-5">
-              <h1 className="text-[#60A308] font-montserrat md:text-xl font-bold">
+            <div className="text-center md:text-start space-y-2 md:space-y-0 px-5">
+              <h1 className="text-[#60A308] md:text-xl font-montserrat font-bold mt-16 lg:mt-8">
                 The Tapestry
               </h1>
-              <h2 className="text-lightYellow font-montserrat font-bold md:text-3xl md:mt-1">
+              <h2 className="text-lightYellow font-montserrat font-bold text-lg md:text-3xl md:pt-2">
                 What we Provide
               </h2>
-              <p className="text-white font-onest text-xs lg:text-base md:mt-6 ">
+              <p className="text-white font-onest text-xs md:text-base md:pt-6">
                 As a design and development agency we offer a variety of
                 services to help you reach your vision. Each service is tailored
                 to produce the best results efficiently from intuitive and
                 creative design to cutting-edge web and mobile development
               </p>
             </div>
-            <div className="relative bg-lightGreen h-[307px] md:h-[404px] mt-8 md:mt-8 px-7 lg:px-12 lg:rounded-2xl">
+            <div className="relative bg-lightGreen h-[307px] md:h-[404px] mt-12 md:mt-8 px-7 lg:px-12 lg:rounded-2xl">
               <h1 className="text-oliveGreen text-2xl md:text-5xl font-black font-montserrat pt-11 lg:pt-16 ">
                 SOFTWARE DEV
               </h1>
@@ -54,7 +54,7 @@ const WhatWeProvide = () => {
           </div>
           {/* Second Grid */}
           <div className="lg:w-1/2 lg:space-y-8">
-            <div className="relative bg-lightYellow h-[307px] md:h-[404px] md:mt-8 px-12 lg:rounded-2xl">
+            <div className="relative bg-lightYellow h-[307px] md:h-[404px] lg:mt-8 px-12 lg:rounded-2xl">
               <h1 className="text-oliveGreen text-2xl md:text-5xl font-black font-montserrat pt-11 lg:pt-16">
                 UI/UX DESIGN
               </h1>
@@ -76,7 +76,7 @@ const WhatWeProvide = () => {
                 <img src={figma} className="" alt="half-figma-logo" />
               </div>
             </div>
-            <div className="relative bg-oliveGreen h-[307px] md:h-[404px] md:mt-8 px-12 lg:rounded-2xl">
+            <div className="relative bg-oliveGreen h-[307px] md:h-[404px] lg:mt-8 px-12 lg:rounded-2xl">
               <h1 className="text-lightYellow text-2xl md:text-5xl font-black font-montserrat pt-11 lg:pt-16">
                 MOBILE DEV
               </h1>
