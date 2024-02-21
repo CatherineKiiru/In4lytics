@@ -7,7 +7,7 @@ import group from "/src/assets/Group-48.svg"
 
 const HowWeWork = () => {
   return (
-    <section className="container mx-auto max-w-[520px] md:max-w-7xl  pt-24">
+    <section className="container mx-auto max-w-[520px] md:max-w-full pt-24">
       <div className="px-4 text-center">
         <h1 className=" text-[#60A308] font-bold text-sm md:text-xl font-montserrat">Our Loom</h1>
         <h2 className=" text-lightYellow text-4xl font-extrabold md:mt-2 font-montserrat">How we Work</h2>
