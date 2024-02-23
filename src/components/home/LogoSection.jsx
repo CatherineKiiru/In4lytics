@@ -4,15 +4,15 @@ import LogoList2 from "./LogoList2";
 
 const LogoSection = () => {
   const softwareImage =
-    "flex gap-4 h-1/2 w-full mx-auto items-center justify-center";
+    "flex lg:gap-4 w-5 lg:w-auto lg:h-1/2 mx-auto items-center justify-center";
     const softwareText =
-    "text-nowrap bg-lightYellow p-2 text-center rounded-full text-oliveGreen font-bold text-base gap-8 mx-auto";
+    "hidden lg:block text-[8px] lg:text-base text-oliveGreen font-bold text-nowrap text-center bg-lightYellow p-3 rounded-full gap-8 lg:mx-auto";
   const mobileText =
-    "text-nowrap text-base bg-lightGreen p-2 text-center rounded-full text-oliveGreen font-bold gap-8 mx-auto";
+    "hidden lg:block text-[8px] lg:text-base text-oliveGreen font-bold text-nowrap text-center bg-lightGreen p-3 rounded-full gap-8 lg:mx-auto";
   return (
     <>
       {/* software dev logos */}
-      <div className="flex w-full ">
+      <div className="flex w-full pt-6 lg:pt-24 ">
         <h1 className={softwareText}>Software Development</h1>
         <div className={softwareImage}>
           {LogoList1.map((image) => (
@@ -29,7 +29,7 @@ const LogoSection = () => {
       </div>
 
       {/* mobile dev logos */}
-      <div className="flex overflow-hidden mt-8">
+      <div className="flex mt-8">
       <h1 className={mobileText}>Mobile Development</h1>
         <div className={softwareImage}>
           {LogoList2.map((image) => (
