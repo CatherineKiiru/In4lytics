@@ -5,6 +5,7 @@ import HistorySection from "../components/home/HistorySection";
 import HowWeWork from "../components/home/HowWeWork";
 import WhatWeProvide from "../components/home/WhatWeProvide";
 import OurWork from "../components/home/OurWork";
+import LogoSection from "../components/home/LogoSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <HowWeWork />
         <WhatWeProvide />
         <OurWork />
+        <LogoSection />
       </div>
       
     </>
