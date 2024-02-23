@@ -20,17 +20,17 @@ const HistorySection = () => {
             <div className="lg:pb-36">
               <img
                 src={handModelsMobile}
-                className="w-full md:hidden"
+                className="w-full lg:hidden"
                 alt="hand models on mobile"
               />
               <img
                 src={handModels}
-                className="hidden lg:w-5/6 md:block lg:pl-12"
+                className="hidden lg:w-5/6 lg:block lg:pl-12"
                 alt="hand models on desktop"
               />
             </div>
 
-            <div className="bg-oliveGreen p-6 space-y-4 lg:absolute lg:bottom-12 md:mt-10 right-0 lg:rounded-xl  lg:max-w-md lg:mr-24">
+            <div className="bg-oliveGreen p-6 space-y-4 lg:absolute lg:bottom-12 lg:mt-10 right-0 lg:rounded-xl  lg:max-w-md lg:mr-24">
               <article className="text-white text-xs md:text-base justify-end">
                 We're not just a design studio. We're a tapestry of talent, a
                 vibrant spool of creators, knit together by a shared passion for

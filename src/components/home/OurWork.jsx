@@ -43,7 +43,7 @@ const OurWork = () => {
               platform for techies to meet mentors, learn and grow in the
               careers.{" "}
             </p>
-            <img src={line} className="mt-4 w-full bg-oliveGreen h-[1px]" alt="horizontal-line" />
+            <img src={line} className="mt-4 w-full bg-oliveGreen r" alt="horizontal-line" />
             <div className="flex justify-between md:mt-6">
               <button className="flex">
                 <img src={greenArrow} className="rotate-180" alt="" />
