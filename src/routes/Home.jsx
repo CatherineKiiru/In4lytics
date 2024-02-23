@@ -6,6 +6,7 @@ import HowWeWork from "../components/home/HowWeWork";
 import WhatWeProvide from "../components/home/WhatWeProvide";
 import OurWork from "../components/home/OurWork";
 import LogoSection from "../components/home/LogoSection";
+import Testimonials from "../components/home/Testimonials";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <WhatWeProvide />
         <OurWork />
         <LogoSection />
+        <Testimonials />
       </div>
       
     </>
