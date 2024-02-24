@@ -20,6 +20,7 @@ export default {
         'softwareCard': "url('/src/assets/Frame61.png')",
         'designCard': "url('/src/assets/ux-card.svg')",
         'mobileCard': "url('/src/assets/mobile-card.png')",
+        'backgroundImage': "url('/src/assets/background.png')"
       }
     },
   },

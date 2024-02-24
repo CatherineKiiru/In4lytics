@@ -7,6 +7,7 @@ import WhatWeProvide from "../components/home/WhatWeProvide";
 import OurWork from "../components/home/OurWork";
 import LogoSection from "../components/home/LogoSection";
 import Testimonials from "../components/home/Testimonials";
+import Contact from "../components/home/Contact";
 
 export default function Home() {
   return (
@@ -22,7 +23,9 @@ export default function Home() {
         <OurWork />
         <LogoSection />
         <Testimonials />
+        <Contact />
       </div>
+      
       
     </>
   );

@@ -14,21 +14,21 @@ const Testimonials = () => {
   return (
     <>
       <section>
-        <div className=" mx-auto text-center mt-8 lg:mt-24 space-y-2">
+        <div className=" mx-auto text-center mt-8 lg:mt-24 space-y-2 md:max-w-md">
           <h1 className="text-[#60A308] md:text-xl font-bold font-montserrat">
             Testimonials
           </h1>
           <h2 className="text-lightYellow md:text-3xl font-bold md:mt-2">
             Real Words From Real People
           </h2>
-          <p className="text-white text-lg font-normal md:mt-6">
+          <p className="text-white text-lg font-normal md:mt-6 w-">
             Explore words from those who entrusted us with their vision as
             testament to our work.
           </p>
         </div>
 
         {/* will refactor with map function */}
-        <div className="lg:flex gap-8 mx-auto justify-center mt-8 md:mt-20 overflow-hidden">
+        <div className="md:flex gap-8 mx-auto justify-center mt-8 md:mt-20 overflow-hidden">
           <article className="bg-lightGreen md:max-w-xs p-8 lg:rounded-xl text-oliveGreen">
             <p>
               "Lorem ipsum dolor sit amet consectetur. Rhoncus integer cras
