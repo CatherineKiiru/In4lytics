@@ -31,7 +31,7 @@ const Hero = () => {
         <h2 className="text-lightYellow mt-28 md:mt-32 max-w-xs md:max-w-full mx-auto font-bold text-lg md:text-2xl">
           Woven with trust, stitched with success
         </h2>
-        <div className=" flex overflow-hidden mx-auto items-center justify-center h-8 gap-8 md:gap-44 md:w-30 md:h-auto mt-3 md:mt-8 ">
+        <div className="flex overflow-hidden mx-auto items-center justify-center h-8 gap-8 md:gap-44 md:w-30 md:h-auto mt-3 md:mt-8 lg:pb-14">
           <img src={mirage} alt="mirage-logo" />
           <img src={tuple} alt="tuple-logo" />
           <img src={transistor} alt="transistor-logo" />
